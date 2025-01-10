@@ -1,0 +1,21 @@
+Building alignments
+1: PREPARING DATA
+2,3: RUNNING mummer AND CREATING CLUSTERS
+# reading input file "/home/mariana/uni/exercise_02/blast/chrI-x-SRR6130428/chrI-x-SRR6130428_megablast.dnadiff.ntref" of length 230219
+# construct suffix tree for sequence of length 230219
+# (maximum reference length is 536870908)
+# (maximum query length is 4294967295)
+# process 2302 characters per dot
+#....................................................................................................
+# CONSTRUCTIONTIME /usr/bin/mummer /home/mariana/uni/exercise_02/blast/chrI-x-SRR6130428/chrI-x-SRR6130428_megablast.dnadiff.ntref 0.04
+# reading input file "/home/mariana/uni/exercise_02/blast/chrI-x-SRR6130428/chrI-x-SRR6130428_megablast.fa" of length 797858
+# matching query-file "/home/mariana/uni/exercise_02/blast/chrI-x-SRR6130428/chrI-x-SRR6130428_megablast.fa"
+# against subject-file "/home/mariana/uni/exercise_02/blast/chrI-x-SRR6130428/chrI-x-SRR6130428_megablast.dnadiff.ntref"
+# COMPLETETIME /usr/bin/mummer /home/mariana/uni/exercise_02/blast/chrI-x-SRR6130428/chrI-x-SRR6130428_megablast.dnadiff.ntref 0.32
+# SPACE /usr/bin/mummer /home/mariana/uni/exercise_02/blast/chrI-x-SRR6130428/chrI-x-SRR6130428_megablast.dnadiff.ntref 1.00
+4: FINISHING DATA
+Filtering alignments
+Extracting alignment coordinates
+Analyzing SNPs
+Extracting alignment breakpoints
+Generating report file

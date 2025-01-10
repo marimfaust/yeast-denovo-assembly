@@ -1,0 +1,66 @@
+
+Version 2.04: released on July 13th, 2012
+Compile Oct 12 2021	09:03:05
+
+********************
+Contig
+********************
+
+Parameters: contig -g /home/mariana/uni/exercise_02/soapdenovo/SRR3481383/SRR3481383_k63_graph -R -p 8 
+
+There are 1667 kmer(s) in vertex file.
+There are 2652 edge(s) in edge file.
+Kmers sorted.
+2652 edge(s) input.
+1946 pre-arcs loaded.
+7016 markers overall.
+7016 markers loaded.
+656 none-palindrome edge(s) swapped, 0 palindrome edge(s) processed.
+2652 edge(s) sorted.
+Arcs sorted.
+18 repeat(s) are solvable, 36 more edge(s).
+72 dead arc(s) removed.
+Time spent on solving repeat: 0s.
+Start to pinch bubbles, cutoff 0.100000, MAX NODE NUM 3, MAX DIFF NUM 2.
+748 start points, 606 dheap nodes.
+103 pair(s) found, 63 pair of path(s) compared, 56 pair(s) merged.
+Sequence comparison failed:
+ Path crossing deleted edge                         0
+ Length difference of two paths greater than two    2
+ Mismatch score greater than cutoff (2)             3
+ Mismatch score ratio greater than cutoff (0.1)     0
+ Path length shorter than (Kmer-1)                  2
+DFibHeap: 14 node(s) allocated.
+183 edge(s) concatenated in cycle 1.
+7 edge(s) concatenated in cycle 2.
+0 edge(s) concatenated in cycle 3.
+Time spent on pinching bubbles: 0s.
+Start to destroy weak inner edges.
+16 weak inner edge(s) destroyed in cycle 1.
+0 weak inner edge(s) destroyed in cycle 2.
+32 dead arc(s) removed.
+11 inner edge(s) with coverage lower than or equal to 1 destroyed.
+22 dead arc(s) removed.
+49 edge(s) concatenated in cycle 1.
+0 edge(s) concatenated in cycle 2.
+Before compacting, 2688 edge(s) existed.
+After compacting, 2042 edge(s) left.
+
+Strict: 0, cutoff length: 126.
+434 tips cut in cycle 1.
+21 tips cut in cycle 2.
+1 tips cut in cycle 3.
+0 tips cut in cycle 4.
+96 dead arc(s) removed.
+69 edge(s) concatenated in cycle 1.
+2 edge(s) concatenated in cycle 2.
+0 edge(s) concatenated in cycle 3.
+Before compacting, 2042 edge(s) existed.
+After compacting, 988 edge(s) left.
+
+There are 463 contig(s) longer than 100, sum up 127222 bp, with average length 274.
+The longest length is 7366 bp, contig N50 is 231 bp,contig N90 is 193 bp.
+494 contig(s) longer than 64 output.
+
+Time spent on constructing contig: 0m.
+

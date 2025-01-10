@@ -1,0 +1,44 @@
+
+Version 2.04: released on July 13th, 2012
+Compile Oct 12 2021	09:03:05
+
+********************
+Map
+********************
+
+Parameters: map -s /home/mariana/uni/exercise_02/soapdenovo/SRR3481383/SRR3481383_soap.conf -p 8 -g /home/mariana/uni/exercise_02/soapdenovo/SRR3481383/SRR3481383_k63_graph 
+
+Kmer size: 63.
+Contig length cutoff: 65.
+
+494 contig(s), maximum sequence length 7366, minimum sequence length 65, maximum name length 10.
+Time spent on parsing contigs file: 0s.
+8 thread(s) initialized.
+Time spent on hashing contigs: 0s.
+98879 node(s) allocated, 99078 kmer(s) in contigs, 99078 kmer(s) processed.
+Time spent on graph construction: 0s.
+
+Time spent on aligning long reads: 0s.
+
+In file: /home/mariana/uni/exercise_02/soapdenovo/SRR3481383/SRR3481383_soap.conf, max seq len 100, max name len 256
+8 thread(s) initialized.
+988 edge(s) in the graph.
+Import reads from file:
+ $WDR/seqs/${SQSET}/SRR3481383_1.subset100k.fastq.gz
+Import reads from file:
+ $WDR/seqs/${SQSET}/SRR3481383_2.subset100k.fastq.gz
+Current insert size is 450, map_len is 32.
+
+Total reads         200000
+Reads in gaps       4816
+Ratio               2.4%
+Reads on contigs    40911
+Ratio               20.5%
+1 pe insert size, the largest boundary is 200000.
+
+LIB(s) information:
+ [LIB] 0, avg_ins 450, reverse 0.
+Time spent on aligning reads: 2s.
+
+Overall time spent on alignment: 0m.
+

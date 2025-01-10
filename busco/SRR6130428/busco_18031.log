@@ -1,0 +1,12 @@
+2024-03-21 11:54:56 INFO:__main__	****************** Start plot generation at 03/21/2024 11:54:56 ******************
+2024-03-21 11:54:56 INFO:__main__	Load data ...
+2024-03-21 11:54:56 INFO:__main__	Loaded /home/mariana/uni/exercise_02/busco/SRR6130428/short_summary.specific.saccharomycetes_odb10.SRR6130428_k63_contigs.txt successfully
+2024-03-21 11:54:56 INFO:__main__	Generate the R code ...
+2024-03-21 11:54:56 INFO:__main__	Run the R code ...
+2024-03-21 11:54:59 INFO:__main__	
+[1] "Plotting the figure ..."
+[1] "Done"
+
+2024-03-21 11:54:59 INFO:__main__	Plot generation done. Total running time: 2.837555170059204 seconds
+2024-03-21 11:54:59 INFO:__main__	Results written in /home/mariana/uni/exercise_02/busco/SRR6130428/
+

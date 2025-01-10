@@ -1,0 +1,4 @@
+2024-03-21 11:54:42 INFO:__main__	****************** Start plot generation at 03/21/2024 11:54:42 ******************
+2024-03-21 11:54:42 WARNING:__main__	Impossible to read /home/mariana/uni/exercise_02/busco/SRR6130428/SRR6130428_k63_contigs/
+2024-03-21 11:54:42 ERROR:__main__	Plot generation failed !
+2024-03-21 11:54:42 INFO:__main__	Check the logs, read the user guide, and check the BUSCO issue board on https://gitlab.com/ezlab/busco/issues

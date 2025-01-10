@@ -1,0 +1,67 @@
+
+Version 2.04: released on July 13th, 2012
+Compile Oct 12 2021	09:03:05
+
+********************
+Pregraph
+********************
+
+Parameters: pregraph -s /home/mariana/uni/exercise_02/soapdenovo/SRR3481383/SRR3481383_soap.conf -K 63 -R -p 8 -o /home/mariana/uni/exercise_02/soapdenovo/SRR3481383/SRR3481383_k63_graph 
+
+In /home/mariana/uni/exercise_02/soapdenovo/SRR3481383/SRR3481383_soap.conf, 1 lib(s), maximum read length 100, maximum name length 256.
+
+8 thread(s) initialized.
+Import reads from file:
+ $WDR/seqs/${SQSET}/SRR3481383_1.subset100k.fastq.gz
+Import reads from file:
+ $WDR/seqs/${SQSET}/SRR3481383_2.subset100k.fastq.gz
+Time spent on hashing reads: 3s, 200000 read(s) processed.
+LIB(s) information:
+ [LIB] 0, avg_ins 450, reverse 0.
+4758097 node(s) allocated, 7600000 kmer(s) in reads, 7600000 kmer(s) processed.
+done hashing nodes
+4531730 linear node(s) marked.
+Time spent on marking linear nodes: 0s.
+Time spent on pre-graph construction: 3s.
+
+Start to remove frequency-one-kmer tips shorter than 126.
+Total 150515 tip(s) removed.
+8 thread(s) initialized.
+16119 linear node(s) marked.
+Start to remove tips with minority links.
+39009 tip(s) removed in cycle 1.
+60 tip(s) removed in cycle 2.
+1 tip(s) removed in cycle 3.
+0 tip(s) removed in cycle 4.
+Total 39070 tip(s) removed.
+8 thread(s) initialized.
+0 linear node(s) marked.
+Time spent on removing tips: 2s.
+
+2652 (1326) edge(s) and 34 extra node(s) constructed.
+Time spent on constructing edges: 0s.
+
+In file: /home/mariana/uni/exercise_02/soapdenovo/SRR3481383/SRR3481383_soap.conf, max seq len 100, max name len 256.
+8 thread(s) initialized.
+Import reads from file:
+ $WDR/seqs/${SQSET}/SRR3481383_1.subset100k.fastq.gz
+Import reads from file:
+ $WDR/seqs/${SQSET}/SRR3481383_2.subset100k.fastq.gz
+200000 read(s) processed.
+Time spent on:
+ importing reads: 0s,
+ chopping reads to kmers: 0s,
+ searching kmers: 0s,
+ aligning reads to edges: 0s,
+ searching (K+1)mers: 0s,
+ adding pre-arcs: 0s,
+ recording read paths: 0s.
+3508 marker(s) output.
+Reads alignment done, 166953 read(s) deleted, 1583 pre-arc(s) added.
+LIB(s) information:
+ [LIB] 0, avg_ins 450, reverse 0.
+Time spent on aligning reads: 3s.
+
+1667 vertex(es) output.
+Overall time spent on constructing pre-graph: 0m.
+
